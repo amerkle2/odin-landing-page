@@ -10,8 +10,8 @@ body {
 .header-hero {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 10px;
     background-color: #1F2937;
 
@@ -43,11 +43,17 @@ body {
 
 .hero-image-box {
     display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
 }
 
 .hero-box {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .hero-main-text {
@@ -66,8 +72,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .image-text {
     color: white;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
 }
