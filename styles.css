@@ -164,3 +164,51 @@ body {
     align-self: stretch;
     padding-right: 40px;
 }
+
+.call-to-action-section {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.call-to-action-pane {
+    background-color: #3882F6;
+    flex: 1;
+    height: 150px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-header {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-desc {
+    color: #F9FAF8;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
